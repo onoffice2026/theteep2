@@ -120,3 +120,17 @@ border-radius:10px;padding:7px 10px;box-shadow:0 8px 24px rgba(0,0,0,.45);grid-t
 .ogp table{width:100%;border-collapse:collapse;font-size:14px}.ogp td{padding:7px 6px;border-bottom:1px solid var(--bd)}.ogp .W{color:var(--grn);font-weight:700}
 .ogp .L{color:var(--red);font-weight:700}.ogp .D{color:var(--mut);font-weight:700}.ogbig{font:800 54px/1 var(--fh);color:var(--sp)}
 .ogback{display:inline-block;margin:6px 0 14px;color:var(--sp);text-decoration:none;font-weight:600}
+
+.ogp2{max-width:860px;margin:0 auto;font-size:13px;font-weight:400}.ogp2 .ogmeta{font-size:11px;letter-spacing:.06em;color:var(--mut);text-transform:uppercase}
+.oghd{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:6px 0 4px}.oghd h1{font:600 24px/1.2 var(--fh);margin:0}
+.ogm{text-align:right;line-height:1}.ogm b{display:block;font:700 36px/1 var(--fh);color:var(--sp)}.ogm span{font-size:10px;letter-spacing:.14em;color:var(--mut);text-transform:uppercase}
+.ogval{font-size:12.5px;color:var(--mut);margin:2px 0 14px}.ogcols{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:720px){.ogcols{grid-template-columns:1fr}.oghd h1{font-size:20px}}
+.ogcol{border:1px solid var(--bd);border-radius:10px;padding:10px 12px}.ogcol.sp{border-color:var(--sp)}.ogcol h3{font:600 12.5px/1.35 var(--fh);margin:0 0 6px}
+.ogcol.sp h3{color:var(--sp)}.ogrow{padding:6px 0;border-top:1px solid var(--bd)}.ogrow:first-of-type{border-top:none}
+.ogl1{display:flex;gap:8px;align-items:baseline}.ogl1 .d{color:var(--mut);font-size:11.5px;min-width:44px}.ogl1 .t{flex:1}.ogl1 .s{font-weight:600}
+.ogl1 .r{font-weight:700;min-width:12px;text-align:center}.ogl1 .r.W{color:var(--grn)}.ogl1 .r.L{color:var(--red)}.ogl1 .r.D{color:var(--mut)}
+.ogl2{display:flex;flex-wrap:wrap;gap:8px;margin:2px 0 0 52px;font-size:11px;color:var(--mut)}.ogl2 a{color:var(--mut);text-decoration:underline}
+.ogrc{display:inline-block;width:7px;height:10px;background:#e5484d;border-radius:1px;margin-right:3px;vertical-align:-1px}.ogpen{color:var(--txt,inherit)}
+.ogrefs{font-size:11.5px;color:var(--mut);margin-top:12px}.ogrefs i{font-style:normal;font-weight:700;margin:0 3px}.ogrefs i.W{color:var(--grn)}.ogrefs i.L{color:var(--red)}
+.ogp2 h2{font:600 14px/1.3 var(--fh);margin:18px 0 4px}.ogp2 .ogback{font-size:12.5px;margin:4px 0 8px}
