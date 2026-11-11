@@ -77,12 +77,17 @@ html[data-theme=editorial]{--bg:#f6f4ef;--pan:#ffffff;--pan2:#fbfaf7;--bd:#e4dfd
 .sta{display:block;padding:14px 16px;border:1px solid var(--bd);border-radius:var(--rad);color:var(--tx);text-decoration:none;background:var(--pan)}
 .sta:hover{border-color:var(--sp)}.sta .k{font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--sp)}
 .sta h3{margin:6px 0 6px;font:700 17px/1.25 var(--fh);color:var(--h)}.sta p{margin:0;font-size:14px;color:var(--mut)}
-.spsplit{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:26px;align-items:start}
+.spsplit{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:26px;align-items:stretch}
 @media(max-width:900px){.spsplit{grid-template-columns:1fr}}
 .spl .sotd{grid-template-columns:1fr}.spl .sprow{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
-.spside{position:sticky;top:12px;border:1px solid var(--bd);border-radius:var(--rad);padding:4px 14px 10px;background:var(--pan)}
+.spr{position:relative;min-height:420px}
+.spside{position:absolute;inset:0;overflow-y:auto;border:1px solid var(--bd);border-radius:var(--rad);padding:4px 14px 10px;background:var(--pan);scrollbar-width:thin}
+@media(max-width:900px){.spr{min-height:0}.spside{position:static;max-height:none}}
+.m6{display:flex;gap:2px;justify-content:flex-end;height:12px;align-items:flex-end;margin-top:4px}.m6 span{width:6px;height:12px;background:var(--bd);border-radius:1px;display:flex;align-items:flex-end}
+.m6 i{display:block;width:100%;background:var(--sp);opacity:.75;border-radius:1px}
 .spside h2{font-size:17px;margin:12px 0 4px}.spside .spw{font-size:11px;gap:2px 10px}
 .spix.sm{font-size:13px}.spix.sm td{padding:6px 4px}.spix.sm .ix{min-width:64px}.spix.sm .ix b{font-size:13.5px}.spix.sm .crest.sm{width:26px;height:26px;font-size:10px}
 .spix.sm .tn small{font-size:10px}
 .spres .sc{white-space:nowrap}
+.spw .m6l{flex-basis:100%;font-style:italic}
 .spart{max-width:760px}.spart p{font-size:16.5px;line-height:1.7}.spart .k{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--sp)}
