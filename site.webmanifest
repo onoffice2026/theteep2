@@ -1,7 +1,7 @@
 {
  "name": "THETEEP2",
  "short_name": "THETEEP2",
- "description": "Data-driven football tips",
+ "description": "Data-driven football analyser",
  "start_url": "./en/index.html",
  "scope": "./",
  "display": "standalone",
