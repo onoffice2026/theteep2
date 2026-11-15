@@ -177,7 +177,8 @@ header .cnavs{gap:8px 16px!important;font-size:13.5px}
 .sfst b{display:block;font-size:20px}.sfr td{padding:4px 8px}.sfr .ok{color:#22c55e}.sfr .no{color:#ef4444}
 
 .cart{background:var(--pan);border:1px solid var(--bd);border-top:3px solid var(--cc);border-radius:var(--rad);padding:18px 20px;margin:18px 0}
-.cart h2{margin:6px 0 12px;font:700 clamp(19px,2.2vw,24px)/1.25 var(--fh);color:var(--h)}.cart .kick{color:var(--cc)}
+.cart h2{margin:6px 0 12px;font:700 clamp(19px,2.2vw,24px)/1.25 var(--fh);color:var(--cc)}.cart .kick{color:var(--h)}
+/* [29zz580] her 16-Nov 00:12: the article title in the profile's colour, the kick line (teams, date) in white - every page */
 .cart p{margin:0 0 12px;line-height:1.65}.cteep{display:flex;flex-wrap:wrap;align-items:center;gap:10px;border-top:1px solid var(--bd);padding-top:12px;margin-top:6px}
 .cteep b{font:800 12px/1 var(--ff);letter-spacing:.08em;color:var(--cc)}.cteep span{font-weight:650}.cteep small{flex-basis:100%;color:var(--mut)}
 .tst{font-size:11px;font-weight:800;padding:2px 8px;border-radius:999px;border:1px solid var(--bd)}.tst.twon{color:var(--grn);border-color:var(--grn)}
